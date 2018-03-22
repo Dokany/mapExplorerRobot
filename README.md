@@ -1,6 +1,6 @@
 # Map Explorer Robot
-![alt text](https://lh6.googleusercontent.com/l4DTV3r0bFu-QosoNq84wZPw5H0TmxTR8eBNkoJl3ot7-ZAVL0Q9M8uu1xqL4I4R9666D8nPgRogx6HotbF_=w1366-h768-rw "Blue")
 A dagu equipped with Jetson TX1 board, LiDAR, IMU and Arduino that enters a large squared field sweeping the surrounding unknown environment for map generation and obstacle detection, thus performing the task of map exploration.
+![alt text](https://lh6.googleusercontent.com/l4DTV3r0bFu-QosoNq84wZPw5H0TmxTR8eBNkoJl3ot7-ZAVL0Q9M8uu1xqL4I4R9666D8nPgRogx6HotbF_=w1366-h768-rw "Blue")
 
 ## How it Works
 The dagu starts from an entry point in the field, moves forward till it detects a colored obstacle with the camera, reads the sign on it (right arrow, left arrow or stop circle) and in turn takes the decision of either making a right or left turn (rotation in 90 degrees), or of stopping. The dagu will keep exploring the field till it stops at a stop sign.
