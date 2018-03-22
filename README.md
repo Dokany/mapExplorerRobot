@@ -8,7 +8,7 @@ The dagu starts from an entry point in the field, moves forward till it detects 
 # Demo
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=uneVWtG7slM
 " target="_blank"><img src="http://img.youtube.com/vi/uneVWtG7slM/0.jpg" 
-alt="Map Explorer Robot" width="240" height="180" border="10" /></a>
+alt="Map Explorer Robot" width="720" height="480" border="10" /></a>
 
 ## How We Built It
 Using ROS, we created the vision-ky package that runs several nodes responsible for handling different aspects of the project. The package includes the following nodes:
