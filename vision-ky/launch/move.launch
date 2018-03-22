@@ -1,0 +1,4 @@
+<launch>	
+	<node pkg="vision-ky" type="master_control.py" name="master_control" output="screen"></node>
+	<node pkg="vision-ky" type="wheels.py" name="wheels"></node>	
+</launch>

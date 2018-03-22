@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="vision-ky" type="lidar_obstacle.py" name="lidar_obstacle">
+	</node>
+	<include file="$(find sweep_ros)/launch/sweep2scan.launch"/>
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+
+	<node pkg="vision-ky" type="IMU_reader.py" name="IMU_reader" >
+	</node>
+	
+	<node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter_node" >
+			<param name="use_mag"  value="false"/>
+	</node>
+	
+	<node pkg="vision-ky" type="IMU_filter.py" name="IMU_filter" output="screen" >
+	</node>
+</launch>

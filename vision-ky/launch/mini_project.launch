@@ -1,0 +1,8 @@
+<launch>	
+	<node pkg="vision-ky" type="seg.py" name="seg"></node>
+	<node pkg="vision-ky" type="sign.py" name="sign"></node>
+	<include file="$(find jetson_csi_cam)/jetson_csi_cam.launch"/>
+	<include file="$(find vision-ky)/launch/imu.launch"/>
+	<include file="$(find vision-ky)/launch/lidar.launch"/>
+	<include file="$(find pid)/launch/pid_code.launch"/>	
+</launch>
