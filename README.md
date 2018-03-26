@@ -25,11 +25,11 @@ Using ROS, we created the vision-ky package that runs several nodes responsible 
 ## Installation Steps
    Install the [ROS Kinetic Kame](http://wiki.ros.org/kinetic/Installation) distribution, then do the following:
 ```
-    $ cd
-    $ cd catkin_ws/src
-    $ git clone https://github.com/Dokany/mapExplorerRobot.git
-    $ catkin_make
-    $ source ./devel/setup.bash
+ $ cd
+ $ cd catkin_ws/src
+ $ git clone https://github.com/Dokany/mapExplorerRobot.git
+ $ catkin_make
+ $ source ./devel/setup.bash
 ```
 
 ## Dependencies
