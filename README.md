@@ -27,9 +27,9 @@ Using ROS, we created the vision-ky package that runs several nodes responsible 
 2. [GSCAM](http://wiki.ros.org/gscam)
 3. [Jetson Csi Cam](https://github.com/peter-moran/jetson_csi_cam)
 4. [PID](http://wiki.ros.org/pid)
-```
-sudo apt-get install ros-kinetic-pid
-```
+    ```
+    sudo apt-get install ros-kinetic-pid
+    ```
 ## Project Team
 - [Aley Baracat](https://github.com/alybaracat)
 - [John Sourour](https://github.com/johnsourour)
