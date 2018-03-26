@@ -22,13 +22,23 @@ Using ROS, we created the vision-ky package that runs several nodes responsible 
 7. sign.py
 9. wheels.py
 
+## Installation Steps
+   Install the [ROS Kinetic Kame](http://wiki.ros.org/kinetic/Installation) distribution, then do the following:
+   ```
+    $ cd
+    $ cd catkin_ws/src
+    $ git clone https://github.com/Dokany/mapExplorerRobot.git
+    $ catkin_make
+    $ source ./devel/setup.bash
+    ```
+
 ## Dependencies
 1. [Sweep SDK for the LiDAR](https://github.com/scanse/sweep-ros)
 2. [GSCAM](http://wiki.ros.org/gscam)
 3. [Jetson Csi Cam](https://github.com/peter-moran/jetson_csi_cam)
 4. [PID](http://wiki.ros.org/pid)
     ```
-    sudo apt-get install ros-kinetic-pid
+    $ sudo apt-get install ros-kinetic-pid
     ```
 ## Project Team
 - [Aley Baracat](https://github.com/alybaracat)
