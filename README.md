@@ -30,10 +30,10 @@ Using ROS, we created the vision-ky package that runs several nodes responsible 
 sudo apt-get install ros-kinetic-pid
 ```
 ## Project Team
-- Aley Baracat
-- Farah Baracat
-- John Sourour
-- Karim Atwa
-- Yasmin ElDokany
+- [Aley Baracat](https://github.com/alybaracat)
+- [John Sourour](https://github.com/johnsourour)
+- [Karim Atwa](https://github.com/karimatwa)
+- [Sara Seleem](https://github.com/saraseleem)
+- [Yasmin ElDokany](https://github.com/Dokany)
 
-## Project submitted for the CSCE 432/4301 Embedded Systems course, at the American University in Cairo.
+#### Project submitted for the CSCE 432/4301 Embedded Systems course, at the American University in Cairo.
