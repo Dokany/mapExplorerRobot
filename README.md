@@ -40,6 +40,8 @@ Using ROS, we created the vision-ky package that runs several nodes responsible 
     ```
     $ sudo apt-get install ros-kinetic-pid
     ```
+    Then add the pid_cod.launch file in the pid directory.
+    
 ## Project Team
 - [Aley Baracat](https://github.com/alybaracat)
 - [John Sourour](https://github.com/johnsourour)
