@@ -42,8 +42,15 @@ For the IMU, we uploaded MinIMU9.ino to the Arduino board connected to the Jetso
     ```
     $ sudo apt-get install ros-kinetic-pid
     ```
-    Then add the pid_cod.launch file in the pid directory.
-    
+    Then add the pid_code.launch file in the pid directory.
+
+## Launching Steps
+To launch the package's node, run the following:
+```
+    $ roslaunch vision-ky mini_project.launch
+    $ roslaunch vision-ky move.launch
+```
+
 ## Project Team
 - [Aley Baracat](https://github.com/alybaracat)
 - [John Sourour](https://github.com/johnsourour)
