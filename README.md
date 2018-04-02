@@ -22,6 +22,8 @@ Using ROS, we created the vision-ky package that runs several nodes responsible 
 7. sign.py
 9. wheels.py
 
+For the IMU, we uploaded MinIMU9.ino to the Arduino board connected to the Jetson via the ACM0 port.
+
 ## Installation Steps
    Install the [ROS Kinetic Kame](http://wiki.ros.org/kinetic/Installation) distribution, then do the following:
 ```
