@@ -10,6 +10,7 @@
       <param name="max_loop_frequency" value="100.0" />
       <param name="min_loop_frequency" value="100.0" />
       <remap from="setpoint" to="/setpoint" />
+      <remap from="state" to="/state" />
      </node>
 
     <node name="servo_sim_node" pkg="pid" type="plant_sim" ns="left_wheel" output="screen" >
@@ -27,6 +28,7 @@
       <param name="max_loop_frequency" value="100.0" />
       <param name="min_loop_frequency" value="100.0" />
       <remap from="setpoint" to="/setpoint" />
+      <remap from="state" to="/state" />
      </node>
 
     <node name="servo_sim_node" pkg="pid" type="plant_sim" ns="right_wheel" output="screen" >
